@@ -1,12 +1,12 @@
 import React from 'react';
-import Signin from './components/Signin/Signin';
 import Home from './components/Home/Home';
+import Register from './components/Register/Register';
 
 class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Signin />
+        <Register />
         <Home />
       </div>
     );
